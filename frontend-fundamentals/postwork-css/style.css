@@ -1,0 +1,79 @@
+html{
+    padding: 2rem;
+}
+*{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+
+.header__logo{
+    color: darkgreen;
+}
+.navegacion__link{
+    color: darkslategrey;
+    margin-right: 1rem;
+}
+
+.login__link{
+    color: darkslategrey;
+}
+
+.login__link:nth-child(2){
+    color: whitesmoke;
+    background-color: darkgreen;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.info{
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.info__heading{
+    font-size: 4rem;
+    margin: 0;
+}
+
+.info__desc{
+    color: grey;
+    font-weight: 300;
+}
+
+.info__btn{
+    color: whitesmoke;
+    background-color: darkgreen;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.bloques{
+    margin-top: 7rem;
+    display: flex;
+   
+}
+
+.bloque{
+    background-color: gainsboro;
+    margin: 1rem;
+}
+
+.bloque__imgs{
+    width: 27rem;
+    height: 27rem;
+
+}
+
+.bloque__txt{
+    padding: 1rem;
+}

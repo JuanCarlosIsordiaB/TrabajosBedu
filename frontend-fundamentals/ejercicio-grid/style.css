@@ -1,0 +1,41 @@
+
+
+.fixed-header{
+    position: fixed;
+    height: 100px;
+    background-color: cadetblue;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.car{
+    margin: 0;
+    width: 100%;
+    height: 150px;
+}
+.car1{
+    background-color: blue;
+}
+.car2{
+    background-color: red;
+}
+.car3{
+    background-color: yellow;
+}
+.car4{
+    background-color: green;
+}
+
+.features{
+    margin-top: 10rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+

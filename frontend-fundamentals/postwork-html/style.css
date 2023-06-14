@@ -1,0 +1,91 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color:  #a1d683;
+}
+
+
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+.matcha__grid{
+    margin-top: 20rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.matcha__txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 5rem;
+}
+
+.matcha__heading{
+    font-family: 'Righteous', sans-serif;
+    font-size: 5rem;
+    max-width: 75%;
+    margin: 0;
+    color: #44a340;
+}
+
+.matcha__des{
+    font-size: 2rem;
+    max-width: 75%;
+}
+
+.matcha__btn{
+    text-decoration: none;
+    font-size: 2rem;
+    background-color: #44a340;
+    padding: 2rem;
+    border-radius: 1rem;
+    color: aliceblue;
+    
+}
+
+.profile{
+    border-radius: 1rem;
+    width: 40rem;
+    background-color: antiquewhite;
+}
+
+.profile__img{
+    width: 40rem;
+    border-radius: 1rem;
+    
+}
+
+.profile__txt{
+    padding: 2rem;
+    
+}
+
+.profile__heading{
+    font-size: 2rem;
+}
+
+.profile__desc{
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    
+}
+
+.profile__btn{
+    
+    text-decoration: none;
+    font-size: 2rem;
+    background-color: #44a340;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    color: aliceblue;
+    margin-bottom: 3rem;
+}
