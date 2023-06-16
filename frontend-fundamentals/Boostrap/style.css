@@ -1,0 +1,66 @@
+.contenedor{
+    width: 95%;
+    max-width: 100rem;
+    margin: 0 auto;
+}
+
+.heading{
+    text-align: center;
+    padding: 5rem;
+    color: antiquewhite;
+}
+
+.cards{
+    padding: 5rem;
+}
+
+.cards__flex{
+    display: flex;
+    justify-content: space-between;
+}
+.cards__heading{
+    text-align: center;
+    padding: 1rem;
+}
+
+.main{
+    background-color: #213363;
+    padding: 5rem;
+}
+
+
+.productos{
+    background-color: #213363;
+    padding: 5rem;
+}
+
+.productos__heading{
+    color: antiquewhite;
+    text-align: center;
+    padding: 2rem;
+}
+
+.botones{
+    padding: 15rem;
+}
+.botones__heading{
+    text-align: center;
+    padding: 1rem;
+}
+
+.botones__logos{
+    display: flex;
+    justify-content: center;
+}
+
+.preguntas{
+    background-color: #213363;
+    padding: 5rem;
+    
+}
+
+.preguntas__heading{
+    padding: 1rem;
+    text-align: center;
+    color: antiquewhite;
+}
