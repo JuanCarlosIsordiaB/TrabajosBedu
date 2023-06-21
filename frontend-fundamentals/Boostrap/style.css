@@ -89,3 +89,28 @@
     font-size: 1.2rem;
 }
 
+
+.compras__grid{
+    margin-top: 5rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.compras__box{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    border: 1px solid black;
+}
+
+.compras__box img{
+    width: 10rem;
+}
+
+.compras__box a{
+   width: 5rem;
+   height: 3rem;
+}
+
+
+
