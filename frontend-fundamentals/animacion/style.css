@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    
+    color: #F4FEFD;
+}
+
+body{
+    background-color: #3A4F50 ;
+}
+
+
+
+
+.header{
+    position: sticky;
+    top: 0;
+    padding: 3rem;
+    font-weight: 900;
+    font-size: 1.5rem;
+   background-color: #1B2223;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo{
+    font-size: 2rem;
+    background-color: #1B2223;
+}
+
+
+.header__logo span{
+    font-size: 2.5rem;
+    color: #0EF6CC;
+    
+}
+
+
+
+.navegacion__link{
+    margin-right: 1rem;
+    
+}
+
+.navegacion__link:hover{
+    color: #0EF6CC;
+    transition: color 0.3s ease;
+}
+
+.main{
+    padding: 7rem;
+}
+
+.main__heading{
+    text-align: center;
+    font-size: 3rem;
+    cursor: default;
+    
+}
+
+.main__heading:hover{
+    color: #0EF6CC;
+    transform: scale(1.5);
+    transition: color 0.3s ease;
+    
+}
+
+
+.cards{
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+
+    
+}
+
+.card{
+    margin: 1rem;
+    border-radius: 1.5rem;
+    border: 5px solid #1B2223;
+    cursor: default;
+}
+
+.card:hover{
+    transition: color 0.3s ease;
+    border: 5px solid #0EF6CC;
+
+
+}
+
+.card:hover .info__card {
+    
+    background-color: #0EF6CC;
+}
+  
+.card:hover .info__card h2,
+.card:hover .info__card p {
+    transition: all 0.1s ease;
+    color: #1B2223;
+}
+.info__card{
+    padding: 1rem;
+    background-color: #1B2223;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+
+    text-align: left;
+}
+
+.info__desc{
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+
+.section{
+    height: 100vh;
+    padding: 3rem;
+
+}
